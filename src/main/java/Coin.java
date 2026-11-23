@@ -18,6 +18,7 @@ public class Coin {
     public boolean touches(Player player) { 
         return player.touches(x, y, size); 
     }
+
     public void collect() { 
         collected = true; 
     }
